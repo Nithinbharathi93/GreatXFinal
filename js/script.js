@@ -414,6 +414,24 @@
 			}
 		};
 
+		// Your existing code...
+
+// Add the following code at the end of your file
+document.querySelector('form').addEventListener('submit', function(e) {
+	e.preventDefault(); // prevent the form from submitting normally
+   
+	var fname = document.getElementById('fname').value;
+	var lname = document.getElementById('lname').value;
+	var email = document.getElementById('email').value;
+	var subject = document.getElementById('subject').value;
+	var message = document.getElementById('message').value;
+   
+	var mailtoLink = 'mailto:nithinbharathi9325@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(fname + ' ' + lname + '\n\n' + message);
+   
+	window.location.href = mailtoLink;
+   });
+   
+
 		/**
 		 * @desc Initialize Bootstrap tooltip with required placement
 		 * @param {string} tooltipPlacement
