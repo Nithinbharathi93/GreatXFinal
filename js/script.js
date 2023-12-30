@@ -426,7 +426,7 @@ document.querySelector('form').addEventListener('submit', function(e) {
 	var subject = document.getElementById('subject').value;
 	var message = document.getElementById('message').value;
    
-	var mailtoLink = 'mailto:nithinbharathi9325@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(fname + ' ' + lname + '\n\n' + message);
+	var mailtoLink = 'mailto:greattxgroups@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(fname + ' ' + lname + '\n\n' + message);
    
 	window.location.href = mailtoLink;
    });
