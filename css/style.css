@@ -8963,3 +8963,11 @@ html.rd-navbar-fixed-linked .page {
   .price-box .classes li.color {
 	background: rgba(0, 0, 0, 0.04);
   }
+
+  .disIco {
+	width: max-content;
+	display: flex;
+	font-style: normal;
+	position: relative;
+	font-size: 100%;
+  }
