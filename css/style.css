@@ -8966,7 +8966,8 @@ html.rd-navbar-fixed-linked .page {
 
   .disIco {
 	width: max-content;
-	display: flex;
+	display: inline;
+	margin-right: 3px;
 	font-style: normal;
 	position: relative;
 	font-size: 100%;
